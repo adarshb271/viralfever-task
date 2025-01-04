@@ -1034,3 +1034,119 @@
     padding: 1rem;
     font-size: 0.9rem;
   }
+  .navbar-brand {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #452fe7;
+}
+
+h1, h2, h3 {
+    color: #007bff;
+    font-family: 'Arapey', serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Buy Now Section */
+.buy-now-section .btn {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.buy-now-section .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Graph Section */
+.graph h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.graph img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonial Section */
+.testimonial-slide {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-slide .prev-btn,
+.testimonial-slide .next-btn {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.testimonial-slide .prev-btn:hover,
+.testimonial-slide .next-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Subscribe Section */
+.subscribe-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe-section button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.subscribe-section button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #f9f9f9;
+    border-top: 5px solid #007bff;
+    padding: 2rem;
+}
+
+.footer-section .social-icons img {
+    width: 30px;
+    margin: 0 0.5rem;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.footer-section .social-icons img:hover {
+    opacity: 1;
+}
